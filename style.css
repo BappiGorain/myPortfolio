@@ -1,0 +1,74 @@
+#rock{
+   width: 100px;
+   border-radius: 50%;
+    margin: 10px;
+    border: 3px groove red;
+    
+}
+
+#paper{
+    width: 130px;
+    border-radius: 60%;
+    margin: 10px;
+    border: 3px groove rgb(0, 255, 8);
+}
+
+#scissor{
+    width: 100px;
+    border-radius: 50%;
+    margin: 10px;
+    border: 3px groove rgb(0, 17, 255);
+}
+
+#rock:hover{
+    border: 5px groove rgb(230, 0, 255);
+    padding: 5px;
+    margin: 5px;
+    background-color: rgb(222, 219, 135);
+    
+}
+#paper:hover{
+    border: 5px groove rgb(230, 0, 255);
+    padding: 5px;
+    margin: 5px;
+    background-color: rgb(144, 135, 222);
+   
+
+}
+#scissor:hover{
+    border: 5px groove rgb(230, 0, 255);
+    padding: 5px;
+    margin: 5px;
+    background-color: rgb(222, 155, 135);
+    
+
+}
+
+
+#play{
+    background-color: forestgreen;
+}
+#play:hover{
+    background-color: rgb(255, 119, 0);
+}
+
+#result{
+    background-color: rgb(47, 179, 255);
+}
+#result:hover{
+    background-color: rgb(255, 47, 206);
+}
+
+
+#reset{
+    background-color: rgb(255, 47, 85)
+}
+#reset:hover{
+    background-color: rgb(252, 255, 47);
+}
+
+#heading{
+    text-align: center;
+    color: rgb(255, 183, 0);
+}
+
